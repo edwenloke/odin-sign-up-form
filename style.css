@@ -21,7 +21,7 @@ body {
 
     flex: 1;
 
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -32,20 +32,20 @@ body {
     align-items: center;
     justify-content: center;
 
-    margin-top: 100px;
+    margin-top: 120px;
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
 .logoImg {
-    height: 150px;
+    height: 120px;
     width: auto;
 }
 
 h1 {
     color: white;
     font-family: NorseBold;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .leftBox p {
@@ -63,4 +63,74 @@ h1 {
 
 .rightBox {
     flex: 2;
+    background-color: #f9fafb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.introBox,
+.signUpBox,
+.logInBox {
+    padding: 0 200px 0 40px;
+}
+
+.introBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    font-weight: 600;
+    font-size: 20px;
+
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+
+.signUpBox {
+    background-color: white;
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.signUpBox p {
+    font-size: 20px;
+    font-weight: 550;
+
+    margin-bottom: 20px;
+}
+
+.labelBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.labelBox > div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 40px;
+
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.2);
+}
+
+input:focus:invalid {
+    border: 1px solid red;
+}
+
