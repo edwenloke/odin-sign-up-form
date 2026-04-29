@@ -20,49 +20,49 @@
     </div>
 
     <div class="rightBox">
-        <div class="introBox">
+        <section class="introBox">
             <p>
                 This is not a real online service! You know you need something like this in your life to help
-                you realize your deepest dreams. <br>Sign up <em>now</em> to get started.</br>
+                you realize your deepest dreams. <br>Sign up <em>now</em> to get started.
             </p>
             <p>You <em>know</em> you want to.</p>
-        </div>
+        </section>
 
-        <div class="signUpBox">
-            <p>Let's do this!</p>
-
-            <div class="labelBox">
-                <div class="firstNameBox">
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" name="firstName" id="firstName">
+        <form>
+            <section class="signUpBox">
+                <p>Let's do this!</p>
+                <div class="labelBox">
+                    <div class="firstNameBox">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName">
+                    </div>
+                    <div class="lastNameBox">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName">
+                    </div>
+                    <div class="emailBox">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="phoneNumberBox">
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="tel" name="phoneNumber" id="phoneNumber">
+                    </div>
+                    <div class="passwordBox">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" required name="password" id="password">
+                    </div>
+                    <div class="confirmPasswordBox">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" required name="confirmPassword" id="confirmPassword">
+                    </div>
                 </div>
-                <div class="lastNameBox">
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" name="lastName" id="lastName">
-                </div>
-                <div class="emailBox">
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="phoneNumberBox">
-                    <label for="phoneNumber">PHONE NUMBER</label>
-                    <input type="text" name="phoneNumber" id="phoneNumber">
-                </div>
-                <div class="passwordBox">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" required name="password" id="password">
-                </div>
-                <div class="confirmPasswordBox">
-                    <label for="confirmPassword">CONFIRM PASSWORD</label>
-                    <input type="password" required name="confirmPassword" id="confirmPassword">
-                </div>
-            </div>
-        </div>
-
-        <div class="accBox">
-            <button>Create Account</button>
-            <p>Already have an account? <span class="underline">Log in</span></p>
-        </div>
+            </section>
+            <section class="accBox">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <span class="underline">Log in</span></p>
+            </section>
+        </form>
     </div>
 </body>
 

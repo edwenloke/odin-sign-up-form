@@ -96,7 +96,7 @@ h1 {
 
 .signUpBox p {
     font-size: 20px;
-    font-weight: 550;
+    font-weight: 500;
 
     margin-bottom: 20px;
 }
@@ -127,7 +127,7 @@ input {
 
 input:focus {
     outline: none;
-    border: 1px solid blue;
+    border-color: blue;
     box-shadow: 0 0 5px rgba(0, 0, 255, 0.2);
 }
 
